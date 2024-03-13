@@ -1,0 +1,228 @@
+.contenedorP {
+    background-color: black;
+    padding: 10px;
+    display: inline-flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: row;
+    align-content: center;
+}
+
+.contenedor1 {
+    background-color: aquamarine;
+    padding: 10px;
+    width: 40%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 5px;
+    justify-content: center;
+}
+
+.contenedor2 {
+    background-color: yellow;
+    padding: 10px;
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin: 5px;
+    justify-content: center;
+}
+
+.contenedor3 {
+    background-color: orange;
+    padding: 10px;
+    width: 30%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 5px;
+}
+
+@media (max-width: 600px) {
+    .contenedorP {
+        display: block;
+    }
+    .contenedor1, .contenedor2, .contenedor3 {
+        width: 100%;
+        height: auto;
+    }
+}
+
+
+.caja11
+{
+    background-color: red;
+    width: 150px;
+    height: 350px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 1;
+}
+.caja12
+{
+    background-color: red;
+    width: 150px;
+    height: 350px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 2;
+}
+.caja13
+{
+    background-color: red;
+    width: 150px;
+    height: 350px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 3;
+}
+.caja14
+{
+    background-color: red;
+    width: 150px;
+    height: 350px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 4;
+}
+.caja21
+{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 1;
+}
+.caja22
+{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 2;
+}
+.caja23
+{
+    background-color:green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 3;
+}
+.caja24
+{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 4;
+}
+.caja25
+{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 5;
+}
+.caja26
+{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 6;
+}
+.caja27
+{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 7;
+}
+.caja28
+{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 8;
+}
+.caja29
+{
+    background-color: green;
+    width: 170px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 9;
+}
+.caja31
+{
+    background-color: yellow;
+    width: 240px;
+    height: 180px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 1;
+}
+.caja32
+{
+    background-color: yellow;
+    width: 120px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 2;
+}
+.caja33
+{
+    background-color:yellow;
+    width: 120px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 3;
+}
+.caja34
+{
+    background-color: yellow;
+    width: 240px;
+    height: 180px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 4;
+}
+.caja35
+{
+    background-color: yellow;
+    width: 120px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 5;
+}
+.caja36
+{
+    background-color: yellow;
+    width: 120px;
+    height: 190px;
+    margin: 5px;
+    flex-grow: 1;
+    order: 6;
+}
